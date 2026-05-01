@@ -43,16 +43,9 @@ javascript        ███████████████████░  
 react             ████████████████░░░░  installed
 node              ████████████████░░░░  installed
 git               ███████████████████░  installed
+python            ████████████░░░░░░░░  learning
 linux             ████████████░░░░░░░░  learning
 ```
----
-
-## `uname -a`
-
-```
-Juan 5.0.0-ARCH #1 SMP he/him — building things that work
-```
-
 ---
 
 <div align="center">
