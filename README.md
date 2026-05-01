@@ -8,10 +8,6 @@
 ```
 
 ```
-$ neofetch --user juan-miguel-alvarado
-```
-
-```
                    -`                juan@github
                   .o+`               ----------
                  `ooo/               OS: Arch Linux x86_64
@@ -34,8 +30,6 @@ $ neofetch --user juan-miguel-alvarado
 ```
 
 ---
-
-## `pacman -Q skills`
 
 ```
 typescript        ████████████████░░░░  installed
