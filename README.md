@@ -29,8 +29,6 @@
  .`                                 `/
 ```
 
----
-
 ```
 typescript        ████████████████░░░░  installed
 javascript        ███████████████████░  installed
@@ -40,7 +38,6 @@ git               ███████████████████░  
 python            ████████████░░░░░░░░  learning
 linux             ████████████░░░░░░░░  learning
 ```
----
 
 <div align="center">
 
