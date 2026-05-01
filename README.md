@@ -7,7 +7,7 @@
  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝
 ```
 
-```bash
+```
 $ neofetch --user juan-miguel-alvarado
 ```
 
