@@ -35,37 +35,6 @@ $ neofetch --user juan-miguel-alvarado
 
 ---
 
-## `whoami`
-
-```bash
-$ cat /etc/profile.d/juan.sh
-```
-
-```sh
-export NAME="Juan Miguel Alvarado"
-export PRONOUNS="he/him"
-export LOCATION="Colombia"
-export STATUS="Soo...?"           # ask me what this means
-export INTERESTS=(
-  "web development"
-  "sports data"
-  "clean code"
-  "open source"
-)
-```
-
----
-
-## `ls -la ~/projects`
-
-```
-drwxr-xr-x  Tennis-App       [TypeScript]  ·· racket meets runtime
-drwxr-xr-x  The-League-App   [JavaScript]  ·· Spanish football, tracked
-drwxr-xr-x  Movies-App       [JavaScript]  ·· cinema in your terminal
-```
-
----
-
 ## `pacman -Q skills`
 
 ```
@@ -76,25 +45,6 @@ node              ████████████████░░░░  
 git               ███████████████████░  installed
 linux             ████████████░░░░░░░░  learning
 ```
-
----
-
-## `git log --oneline --year=2026`
-
-```
-145 commits in the last year
-no days off
-```
-
----
-
-## `cat ~/.config/contact`
-
-```ini
-[social]
-github   = github.com/Juan-Miguel-alvarado
-```
-
 ---
 
 ## `uname -a`
