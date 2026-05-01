@@ -16,12 +16,12 @@ $ neofetch --user juan-miguel-alvarado
                   .o+`               ----------
                  `ooo/               OS: Arch Linux x86_64
                 `+oooo:              Shell: zsh
-               `+oooooo:            Terminal: kitty
-               -+oooooo+:           WM: hyprland
-             `/:-:++oooo+:          Theme: gruvbox-dark
-            `/++++/+++++++:         Editor: neovim
-           `/++++++++++++++:        Languages: TypeScript • JavaScript
-          `/+++ooooooooooooo/`      Focus: web dev • sports apps
+               `+oooooo:             Terminal: kitty
+               -+oooooo+:            WM: hyprland
+             `/:-:++oooo+:           Theme: gruvbox-dark
+            `/++++/+++++++:          Editor: neovim
+           `/++++++++++++++:         Languages: TypeScript • JavaScript
+          `/+++ooooooooooooo/`       Focus: web dev • clean apps
          ./ooosssso++osssssso+`     
         .oossssso-`  `/ossssss+`    
        -osssssso.      :ssssssso.
