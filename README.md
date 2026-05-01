@@ -7,7 +7,7 @@
  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝
 ```
 
-```bash
+```
 $ neofetch --user juan-miguel-alvarado
 ```
 
@@ -50,7 +50,7 @@ linux             ████████████░░░░░░░░  
 
 <div align="center">
 
-```bash
+```
 $ echo "thanks for dropping by. star something if you like it."
 ```
 
