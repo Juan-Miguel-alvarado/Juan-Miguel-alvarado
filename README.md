@@ -39,10 +39,6 @@ python            ████████████░░░░░░░░  
 linux             ████████████░░░░░░░░  learning
 ```
 
-<div align="center">
-
 ```bash
 $ echo "thanks for dropping by. star something if you like it."
 ```
-
-</div>
