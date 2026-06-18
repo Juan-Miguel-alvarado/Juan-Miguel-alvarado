@@ -36,8 +36,8 @@ javascript        ███████████████████░  
 react             ████████████████░░░░  installed
 node              ████████████████░░░░  installed
 git               ███████████████████░  installed
+linux             ███████████████████░  installed
 python            ████████████░░░░░░░░  learning
-linux             ████████████░░░░░░░░  learning
 ```
 
 ```bash
