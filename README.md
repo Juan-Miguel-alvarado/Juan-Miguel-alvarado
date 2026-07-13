@@ -1,4 +1,1 @@
-```
-┌─[juan@dev]─[~/code]
-└──╼ $ cargo run --release
-```
+![](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=800&color=00FF41&vCenter=true&lines=%24+cargo+run+--release;%24+Rust+%C2%B7+TypeScript+%C2%B7+Flutter;%24+building+search+engines)
