@@ -19,7 +19,3 @@ linux             ███████████████████░  
 python            ████████████░░░░░░░░  learning
 ```
 
-
-```
-$ echo "thanks for dropping by. star something if you like it."
-```
