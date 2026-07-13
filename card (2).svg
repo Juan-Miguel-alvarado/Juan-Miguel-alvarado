@@ -1,0 +1,79 @@
+<svg viewBox="0 0 680 470" xmlns="http://www.w3.org/2000/svg" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', monospace">
+<style>
+:root { --bg: #ffffff; --bg1: #f6f8fa; --border: #d0d7de; --text: #1f2328; --muted: #656d76; --tag-bg: #f6f8fa; --tag-border: #d0d7de; }
+@media (prefers-color-scheme: dark) {
+:root { --bg: #0d1117; --bg1: #161b22; --border: #30363d; --text: #e6edf3; --muted: #8b949e; --tag-bg: #161b22; --tag-border: #30363d; }
+}
+</style>
+
+<rect width="680" height="470" fill="var(--bg)"/>
+
+<!-- name + tagline -->
+<text x="32" y="44" font-size="13" font-weight="500" fill="var(--text)" letter-spacing="1.5">juan miguel alvarado</text>
+<text x="32" y="62" font-size="11" fill="var(--muted)" letter-spacing="0.5">rust · typescript · flutter · search, chess, and things that ship</text>
+
+<line x1="32" y1="78" x2="648" y2="78" stroke="var(--border)" stroke-width="0.5"/>
+
+<text x="32" y="98" font-size="9" fill="var(--muted)" letter-spacing="2" font-weight="500">SELECTED WORK</text>
+
+<!-- project grid -->
+<rect x="32" y="110" width="616" height="230" fill="none" stroke="var(--border)" stroke-width="0.5"/>
+<line x1="340" y1="110" x2="340" y2="240" stroke="var(--border)" stroke-width="0.5"/>
+<line x1="32" y1="240" x2="648" y2="240" stroke="var(--border)" stroke-width="0.5"/>
+
+<!-- deepsearch -->
+<text x="48" y="136" font-size="11.5" font-weight="500" fill="var(--text)" letter-spacing="0.3">deepsearch</text>
+<text x="48" y="154" font-size="10" fill="var(--muted)">Relevance-ranked full-text search over</text>
+<text x="48" y="168" font-size="10" fill="var(--muted)">your files. BM25 scoring, interactive TUI,</text>
+<text x="48" y="182" font-size="10" fill="var(--muted)">built to stay fast on large corpora.</text>
+<rect x="48" y="196" width="38" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="67" y="208" font-size="9" fill="var(--muted)" text-anchor="middle">rust</text>
+<rect x="92" y="196" width="42" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="113" y="208" font-size="9" fill="var(--muted)" text-anchor="middle">bm25</text>
+<rect x="140" y="196" width="34" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="157" y="208" font-size="9" fill="var(--muted)" text-anchor="middle">tui</text>
+
+<!-- chess-coach -->
+<text x="356" y="136" font-size="11.5" font-weight="500" fill="var(--text)" letter-spacing="0.3">chess-coach</text>
+<text x="356" y="154" font-size="10" fill="var(--muted)">Reads your games and tells you what you</text>
+<text x="356" y="168" font-size="10" fill="var(--muted)">keep getting wrong — recurring patterns,</text>
+<text x="356" y="182" font-size="10" fill="var(--muted)">not just move-by-move evaluations.</text>
+<rect x="356" y="196" width="70" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="391" y="208" font-size="9" fill="var(--muted)" text-anchor="middle">typescript</text>
+<rect x="432" y="196" width="54" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="459" y="208" font-size="9" fill="var(--muted)" text-anchor="middle">node.js</text>
+
+<!-- chess-game-analyzer (full width) -->
+<text x="48" y="266" font-size="11.5" font-weight="500" fill="var(--text)" letter-spacing="0.3">chess-game-analyzer</text>
+<text x="48" y="284" font-size="10" fill="var(--muted)">The analysis layer underneath chess-coach. Parses games, evaluates positions, and</text>
+<text x="48" y="298" font-size="10" fill="var(--muted)">surfaces the moments where things actually went sideways.</text>
+<rect x="48" y="312" width="70" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="83" y="324" font-size="9" fill="var(--muted)" text-anchor="middle">typescript</text>
+<rect x="124" y="312" width="58" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="153" y="324" font-size="9" fill="var(--muted)" text-anchor="middle">chess.js</text>
+
+<line x1="32" y1="360" x2="648" y2="360" stroke="var(--border)" stroke-width="0.5"/>
+
+<!-- stack -->
+<text x="32" y="380" font-size="9" fill="var(--muted)" letter-spacing="2" font-weight="500">STACK</text>
+
+<rect x="32" y="390" width="38" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="51" y="402" font-size="9" fill="var(--muted)" text-anchor="middle">rust</text>
+<rect x="76" y="390" width="70" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="111" y="402" font-size="9" fill="var(--muted)" text-anchor="middle">typescript</text>
+<rect x="152" y="390" width="54" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="179" y="402" font-size="9" fill="var(--muted)" text-anchor="middle">flutter</text>
+<rect x="212" y="390" width="38" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="231" y="402" font-size="9" fill="var(--muted)" text-anchor="middle">dart</text>
+<rect x="256" y="390" width="60" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="286" y="402" font-size="9" fill="var(--muted)" text-anchor="middle">firebase</text>
+<rect x="322" y="390" width="54" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="349" y="402" font-size="9" fill="var(--muted)" text-anchor="middle">node.js</text>
+<rect x="382" y="390" width="46" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="405" y="402" font-size="9" fill="var(--muted)" text-anchor="middle">docker</text>
+<rect x="434" y="390" width="30" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="449" y="402" font-size="9" fill="var(--muted)" text-anchor="middle">git</text>
+
+<line x1="32" y1="430" x2="648" y2="430" stroke="var(--border)" stroke-width="0.5"/>
+
+</svg>
