@@ -17,13 +17,3 @@
 
 ```
 
-```
-typescript        ████████████████░░░░  installed
-javascript        ███████████████████░  installed
-react             ████████████████░░░░  installed
-node              ████████████████░░░░  installed
-git               ███████████████████░  installed
-linux             ███████████████████░  installed
-python            ████████████░░░░░░░░  learning
-```
-
