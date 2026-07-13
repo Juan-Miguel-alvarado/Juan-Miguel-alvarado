@@ -1,5 +1,5 @@
 <div align="center">
 
-![dhriti vaz](./card.svg)
+![Juan Alvarado](./card.svg)
 
 </div>
