@@ -1,19 +1,5 @@
-```
-           .                                                    
-  .x88888x.                                                
- :8**888888X.  :>    x.    .                    u.    u.   
- f    `888888x./   .@88k  z88u         u      x@88k u@88c. 
-'       `*88888~  ~"8888 ^8888      us888u.  ^"8888""8888" 
- \.    .  `?)X.     8888  888R   .@88 "8888"   8888  888R  
-  `~=-^   X88> ~    8888  888R   9888  9888    8888  888R  
-         X8888  ~   8888  888R   9888  9888    8888  888R  
-         488888     8888 ,888B . 9888  9888    8888  888R  
- .xx.     88888X   "8888Y 8888"  9888  9888   "*88*" 8888" 
-'*8888.   '88888>   `Y"   'YP    "888*""888"    ""   'Y"   
-  88888    '8888>                 ^Y"   ^Y'                
-  `8888>    `888                                           
-   "8888     8%                                            
-    `"888x:-"                                              
-
-
-```
+# Juan Miguel Alvarado
+ 
+I build tools. Full-text search in Rust, chess analysis, apps with real data behind them.
+ 
+Most of my time goes into things that have to actually work under load — search that ranks well, backends that don't fall over, interfaces that stay out of the way.
