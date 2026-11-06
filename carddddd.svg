@@ -21,7 +21,7 @@
 <line x1="340" y1="110" x2="340" y2="240" stroke="var(--border)" stroke-width="0.5"/>
 
 <!-- deepsearch -->
-<text x="48" y="136" font-size="11.5" font-weight="500" fill="var(--text)" letter-spacing="0.3">deepsearch</text>
+<text x="48" y="136" font-size="11.5" font-weight="500" fill="var(--text)" letter-spacing="0.3">wisp</text>
 <text x="48" y="154" font-size="10" fill="var(--muted)">Relevance-ranked full-text search over</text>
 <text x="48" y="168" font-size="10" fill="var(--muted)">your files. BM25 scoring, interactive TUI,</text>
 <text x="48" y="182" font-size="10" fill="var(--muted)">built to stay fast on large corpora.</text>
@@ -47,7 +47,7 @@
 <line x1="32" y1="240" x2="648" y2="240" stroke="var(--border)" stroke-width="0.5"/>
 
 <!-- FootballBot -->
-<text x="48" y="266" font-size="11.5" font-weight="500" fill="var(--text)" letter-spacing="0.3">FootballBot</text>
+<text x="48" y="266" font-size="11.5" font-weight="500" fill="var(--text)" letter-spacing="0.3">footballbot</text>
 <text x="48" y="284" font-size="10" fill="var(--muted)">Discord bot for football fans: guess the club from a pixelated crest that sharpens over</text>
 <text x="48" y="298" font-size="10" fill="var(--muted)">time, plus live scores, standings and team info right in your server.</text>
 <rect x="48" y="312" width="46" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
