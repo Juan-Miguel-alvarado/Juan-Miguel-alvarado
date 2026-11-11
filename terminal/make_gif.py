@@ -2,14 +2,13 @@
 
     python make_gif.py [background image] [-o out.gif]
 
-Needs pillow, qrcode and pyfiglet. Edit SCRIPT at the bottom to change what gets typed.
+Needs pillow and pyfiglet. Edit SCRIPT at the bottom to change what gets typed.
 """
 import argparse
 import random
 from pathlib import Path
 
 import pyfiglet
-import qrcode
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 HERE = Path(__file__).parent
@@ -98,12 +97,11 @@ class Term:
     def __init__(self, bg):
         self.bg = bg
         self.lines = [[]]          # each line: list of (text, style)
-        self.frames = []           # (rgba overlay drawer args, duration ms)
+        self.frames = []           # (rgb image, duration ms)
         self.font = ImageFont.truetype(str(FONT), FONT_SIZE)
         self.font_bold = ImageFont.truetype(str(FONT_BOLD), FONT_SIZE)
         self.cw = self.font.getlength("M")
         self.rows = (H - TITLE_H - 2 * PAD_Y) // LINE_H
-        self.overlay = None        # (image, xy) drawn on top, e.g. the QR card
 
     # -- state helpers
     def _scroll(self):
@@ -137,9 +135,6 @@ class Term:
             if cursor and i == len(self.lines) - 1:
                 d.rectangle((x + 1, y + 2, x + self.cw, y + LINE_H - 3), fill=COLORS["fg"])
             y += LINE_H
-        if self.overlay:
-            ov, xy = self.overlay
-            img.paste(ov, xy, ov)
         return img
 
     def snap(self, ms, cursor=True):
@@ -241,32 +236,6 @@ def banner():
     return lines
 
 
-def qr_card(size=196):
-    q = qrcode.QRCode(border=2, box_size=1, error_correction=qrcode.constants.ERROR_CORRECT_M)
-    q.add_data("https://" + PROFILE_URL)
-    q.make(fit=True)
-    m = q.make_image(fill_color=(14, 14, 16), back_color=(236, 236, 236)).convert("RGB")
-    m = m.resize((size, size), Image.NEAREST)
-    card = Image.new("RGBA", (size + 20, size + 44), (0, 0, 0, 0))
-    d = ImageDraw.Draw(card)
-    d.rounded_rectangle((0, 0, card.width - 1, card.height - 1), 10, fill=(236, 236, 236, 255))
-    card.paste(m, (10, 10))
-    f = ImageFont.truetype(str(FONT_BOLD), 12)
-    label = "scan me"
-    d.text(((card.width - d.textlength(label, font=f)) / 2, size + 16), label, font=f, fill=(14, 14, 16))
-    return card
-
-
-def slide_in(t, card, ms_total=500, steps=10):
-    x_end = W - card.width - 34
-    y = TITLE_H + (H - TITLE_H - card.height) // 2
-    for i in range(1, steps + 1):
-        k = 1 - (1 - i / steps) ** 3      # ease-out cubic
-        x = round(W + (x_end - W) * k)
-        t.overlay = (card, (x, y))
-        t.snap(ms_total // steps, cursor=False)
-
-
 # ---------------------------------------------------------------- script
 
 def script(t):
@@ -301,7 +270,6 @@ def script(t):
     t.idle(600)
     t.type(f"open {PROFILE_URL}")
     t.out([("→ ", "dim"), (PROFILE_URL, "bold")], "")
-    slide_in(t, qr_card())
     t.idle(5200)
 
 
