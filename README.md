@@ -1,5 +1,5 @@
 <div align="center">
 
-![Juan Alvarado](./carddddd.svg)
+<img src="./terminal/terminal.gif" alt="Alva! — terminal intro" width="840">
 
 </div>
